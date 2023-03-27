@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Game Struck</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="statement" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+<section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">CATEGORIES</a></li>
+                    <li><a href="blog.html">GAME</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                 </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    
+<div class="text-box">
+    <h1>Welcome to Explore Games</h1>
+    <p>Explore,learn,know new things everyday to enjoy the love for games
+    </p>
+    <a href="" class="hero-btn">Visit us to know more</a>
+    
+    </div>
+        
+    
+ </section>
+    
+    <!----------Course-------->
+    
+<section class="course">
+    <h1>Categories</h1>
+    <p>Categories of game has been listed below</p>
+    
+    <div class="row">
+        <div class="course-col">
+            <h3>Action</h3>
+            <p>An action game is a video game genre that emphasizes physical challenges, including hand–eye coordination and reaction-time. The genre includes a large variety of sub-genres, such as fighting games, beat 'em ups, shooter games, and platform games. Multiplayer online battle arena and some real-time strategy games are also considered action games.
+            </p>
+        </div>
+            <div class="course-col">
+            <h3>Strategy</h3>
+            <p>A strategy game or strategic game is a game (e.g. a board game) in which the players' uncoerced, and often autonomous, decision-making skills have a high significance in determining the outcome. Almost all strategy games require internal decision tree-style thinking, and typically very high situational awareness.
+            </p>
+        </div>
+            <div class="course-col">
+            <h3>Arcade</h3>
+            <p>An arcade video game takes player input from its controls, processes it through electrical or computerized components, and displays output to an electronic monitor or similar display. Most arcade video games are coin-operated, housed in an arcade cabinet, and located in amusement arcades alongside other kinds of arcade games. Until the late 1990s, arcade video games were the largest and most technologically advanced segment of the video game industry.
+            </p>
+        </div>
+    </div>
+    
+    
+</section>
+<!----------------Campus--------------->
+    <section class="campus">
+        <h1>Our Games</h1>
+        <p>These games have been popular since its found till date across the globe
+        </p>
+        
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/clash royale.jpg" width="300" height="550" style="float:left">
+            </div>
+            <div class="campus-col">
+                <img src="images/valorant.jpg" width="300" height="550">
+            </div>
+            <div class="campus-col">
+                <img src="images/candycrush.jpg" width="300" height="550">
+            </div>
+            
+            
+        </div>
+    </section>
+    
+<!--------------Facilities------------------>
+    
+    <section class="facilities">
+        <h1>Tournamnets</h1>
+        <p>The tournamnets held outside India</p>
+        
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/cr%20tournaments.jpg">
+                <h3>World Class Tournaments</h3>
+                <p>This is the best one</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/valo%20tournaments.jpg">
+                <h3>World Class Tournaments</h3>
+                <p>This is the best one</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cr%20tournaments.jpg">
+                <h3>World Class Tournaments</h3>
+                <p>This is the best one</p>
+            </div>
+        </div>
+    
+     </section>
+    
+        
+    <!------------ testimonials ------->
+    
+    <section class="testimonials">
+        <h1>What our viewers say</h1>
+        <p>This is wonderful website</p>
+        
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="images/man.jpg">
+                <div>
+                    <p>This is a website where you could know about the game and the tournaments happening in these games. It is so helpful for the gamers to know such tournaments through this website</p>
+                    <h3>David Byer</h3>
+                </div>
+            </div>
+                <div class="testimonial-col">
+                <img src="images/women.jpg">
+                <div>
+                    <p>I have been following this website since the past week and the tournaments they have updating is super awesome. It makes easy for gamers like us. </p>
+                    <h3>Christine Berkley</h3>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    
+    <!----------- Call to Action --------->
+    <section class="cta">
+        <h1>For any queries</h1>
+        <a href="contact.html" class="hero-btn">CONTACT US</a>
+    </section>
+    
+    <!----------- Footer ---------------->
+    
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Made for gamers and only for gamers</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+    
+    
+    
+    
+    
+    
+    <!----------JavaScript for Toogle Menu---------->
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+    
+</script>
+</body>
+</html>
